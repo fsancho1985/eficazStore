@@ -1,0 +1,39 @@
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ccc;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 30px;
+}
+
+.catalog {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.catalog .card-catalog {
+  width: 280px;
+  height: 250px;
+  color: #ccc;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.catalog .card-catalog h5 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.catalog .card-catalog .wrapper {
+  margin: 15px 5px;
+  display: flex;
+}
+.catalog .card-catalog img {
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+}
+
+/*# sourceMappingURL=style_catalog.css.map */

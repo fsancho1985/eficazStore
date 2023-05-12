@@ -23,7 +23,7 @@ function createCards(el) {
     const link = document.createElement('a')
     title.innerText = el;
     link.appendChild(img)
-    link.setAttribute('href', `/catalogo/${el}.html`)
+    link.setAttribute('href', `/pages/catalogo/${el}.html`)
     img.setAttribute('src', `./assets/${el}.jpg`)
     img.setAttribute('alt', `${el}`)
     div.appendChild(title)
